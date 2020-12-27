@@ -1,0 +1,10 @@
+.listItem {
+  margin-bottom: 20px;
+  text-decoration: none;
+}
+
+.link {
+  text-decoration: none;
+  color: #757575;
+  font-size: 14px;
+}

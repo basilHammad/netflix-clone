@@ -1,0 +1,46 @@
+.item {
+  background-color: #303030;
+  height: 70px;
+  color: whitesmoke;
+  margin-bottom: 10px;
+  padding: 20px 40px;
+  line-height: 25px;
+  cursor: pointer;
+  font-size: 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.addIcon {
+  width: 25px;
+  height: 25px;
+  transition: all 0.1s ease;
+}
+
+.rotateImg {
+  transform: rotate(45deg);
+}
+
+.ItemOpen {
+  margin-bottom: 3px;
+}
+
+.body {
+  background-color: #303030;
+  margin-bottom: 10px;
+  padding: 20px 40px;
+  font-size: 32px;
+}
+
+@media (max-width: 1000px) {
+  .item {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 700px) {
+  .item {
+    font-size: 20px;
+  }
+}

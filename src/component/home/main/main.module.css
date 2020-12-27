@@ -1,0 +1,54 @@
+.center {
+  width: 60%;
+  height: 90%;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.MainHeading {
+  width: 70%;
+  font-weight: bold;
+  font-size: 3rem;
+  margin-bottom: 16px;
+}
+
+.secHeading {
+  margin-bottom: 16px;
+}
+
+@media (max-width: 985px) {
+  .center {
+    margin: 20px auto;
+  }
+  .MainHeading {
+    width: 100%;
+  }
+}
+
+@media (max-width: 700px) {
+  .center {
+    width: 70%;
+  }
+  .MainHeading {
+    font-size: 2rem;
+  }
+  .secHeading {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 410px) {
+  .center {
+    width: 90%;
+  }
+  .MainHeading {
+    font-size: 1.3rem;
+  }
+  .secHeading {
+    font-size: 1rem;
+  }
+}

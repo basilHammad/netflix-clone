@@ -1,0 +1,57 @@
+.cont {
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  color: #fff;
+  border-bottom: 8px solid #222;
+}
+
+.subCont {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.textCont {
+  width: 60%;
+}
+
+.title {
+  font-size: 2.5rem;
+}
+
+.subTitle {
+  font-size: 1.2rem;
+}
+
+.imageCont {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  max-width: 70%;
+  height: auto;
+  padding: 20px 10%;
+}
+
+@media (max-width: 1000px) {
+  .cont {
+    flex-direction: column !important;
+    justify-content: center;
+    align-items: center;
+  }
+  .subCont {
+    width: 90%;
+    text-align: center;
+  }
+  .imageCont {
+    width: 90%;
+    width: 100%;
+  }
+}

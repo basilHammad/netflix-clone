@@ -1,0 +1,17 @@
+.slide {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+
+.subCategory {
+  font-size: 24px;
+  color: #e5e5e5;
+  font-weight: bold;
+  margin-bottom: 24px;
+  margin-left: 56px;
+}
+
+.subCategory:first-of-type {
+  margin-top: 10px;
+}

@@ -1,0 +1,24 @@
+.logo {
+  width: 108px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 40px;
+}
+
+.logoImage {
+  width: 100%;
+  height: auto;
+}
+
+.secondary {
+  justify-content: flex-start;
+  width: 140px;
+  cursor: pointer;
+}
+
+.profile {
+  justify-content: flex-start;
+  width: 140px;
+}

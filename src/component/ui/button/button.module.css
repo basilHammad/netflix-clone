@@ -1,0 +1,68 @@
+.Button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  outline: none;
+  cursor: pointer;
+  font: inherit;
+
+  font-weight: bold;
+}
+
+.getStarted {
+  background-color: #e50914;
+  width: 38%;
+  font-size: 30px;
+  font-weight: normal;
+}
+
+.signin {
+  background-color: #e50914;
+  width: 75px;
+  height: 34px;
+  font-size: 15px;
+  border-radius: 4px;
+}
+
+.signinPage {
+  background-color: #e50914;
+  width: 100%;
+  height: 34px;
+  font-size: 15px;
+  border-radius: 4px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.play {
+  box-shadow: 0 0.6vw 1vw -0.4vw rgba(0, 0, 0, 0.35);
+  background-color: #e6e6e6;
+  color: #000;
+  border-width: 0;
+  padding: 10px 20px;
+  border-radius: 5px;
+  max-width: 130px;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 30px;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+
+.play:hover {
+  background-color: #ff1e1e;
+  color: white;
+}
+
+@media (max-width: 950px) {
+  .getStarted {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 700px) {
+  .getStarted {
+    width: 60%;
+    height: 50px;
+  }
+}

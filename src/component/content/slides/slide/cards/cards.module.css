@@ -1,0 +1,9 @@
+.cards {
+  display: flex;
+  flex-direction: column;
+}
+
+.cardsCont {
+  margin: 0 56px;
+  display: flex;
+}

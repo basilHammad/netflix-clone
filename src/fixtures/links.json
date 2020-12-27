@@ -1,0 +1,72 @@
+[
+  {
+    "linkName": "FAQ",
+    "link": "/faq",
+    "id": 1
+  },
+  {
+    "linkName": "Media Center",
+    "link": "/mediacenter",
+    "id": 2
+  },
+  {
+    "linkName": "Cookie Preferences",
+    "link": "/cookiepreferences",
+    "id": 3
+  },
+  {
+    "linkName": "Speed Test",
+    "link": "/speedtest",
+    "id": 4
+  },
+  {
+    "linkName": "Help Center",
+    "link": "/helpcenter",
+    "id": 5
+  },
+  {
+    "linkName": "Investor Relations",
+    "link": "/investorrelations",
+    "id": 6
+  },
+  {
+    "linkName": "Terms of Use",
+    "link": "/termsofuse",
+    "id": 7
+  },
+  {
+    "linkName": "Corporate Information",
+    "link": "/corporateinformation",
+    "id": 8
+  },
+  {
+    "linkName": "Legal Notices",
+    "link": "/legalnotices",
+    "id": 9
+  },
+  {
+    "linkName": "Account",
+    "link": "/account",
+    "id": 10
+  },
+  {
+    "linkName": "Jobs",
+    "link": "/jobs",
+    "id": 11
+  },
+  {
+    "linkName": "Privacy",
+    "link": "/privacy",
+    "id": 12
+  },
+  {
+    "linkName": "Contact Us",
+    "link": "/contactus",
+    "id": 13
+  },
+  {
+    "linkName": "Netflix Originals",
+    "link": "/netflixoriginals",
+    "id": 14
+  }
+]

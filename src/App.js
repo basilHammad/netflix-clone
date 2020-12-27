@@ -1,25 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { Switch, Route } from "react-router-dom";
 
-function App() {
+import FormState from "./context/formContext/FormState";
+import Home from "./containers/home/Home";
+import Signin from "./containers/signin/Signin";
+import Signup from "./containers/signup/Signup";
+import Content from "./containers/content/Content";
+import useContent from "./hooks/useContent";
+import selectionFilter from "./utils/selectionFilter";
+
+const App = () => {
+  const { films } = useContent("films");
+  const { series } = useContent("series");
+  const category = selectionFilter(series, films);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <FormState>
+      <Switch>
+        <Route path="/signin">
+          <Signin />
+        </Route>
+        <Route path="/signup">
+          <Signup />
+        </Route>
+        <Route path="/content">
+          <Content category={category} />
+        </Route>
+        <Route path="/">
+          <Home />
+        </Route>
+      </Switch>
+    </FormState>
   );
-}
-
+};
 export default App;

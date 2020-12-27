@@ -1,0 +1,152 @@
+.headerCont {
+  display: flex;
+  margin: 0 56px;
+  height: 100px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.link {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 30px;
+  font-weight: 700;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+.imgCont {
+  width: 32px;
+  height: 32px;
+  position: relative;
+  margin-left: 20px;
+}
+
+.userImage {
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+}
+
+.dropDown {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  background-color: black;
+  padding: 10px;
+  width: 100px;
+  top: 66px;
+  right: 64px;
+}
+
+.dropDown .imgCont {
+  margin: 0;
+}
+
+.dropDown:hover {
+  display: flex;
+}
+
+.dropDownHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.signout {
+  background: transparent;
+  color: #fff;
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.imgCont:hover + .dropDown {
+  display: flex;
+  flex-direction: column;
+}
+
+.bodyCont {
+  padding: 150px 0 500px 0;
+  flex-direction: column;
+  align-items: normal;
+  width: 50%;
+  display: flex;
+  margin: 0 56px;
+  height: 100px;
+  justify-content: space-between;
+  align-items: left;
+}
+
+.title {
+  color: white;
+  font-size: 50px;
+  line-height: normal;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.45);
+  margin: 0;
+}
+
+.discription {
+  color: white;
+  font-size: 22px;
+  line-height: normal;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.45);
+}
+
+.searchIcon {
+  cursor: pointer;
+  background-color: transparent;
+  border: 0;
+  outline: 0;
+  height: 32px;
+  width: 32px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.searchIcon img {
+  filter: brightness(0) invert(1);
+  width: 16px;
+}
+
+.serchInput {
+  background-color: rgba(64, 64, 64, 0.5);
+  color: white;
+  border: 1px solid white;
+  transition: width 0.5s;
+  height: 30px;
+  font-size: 14px;
+  border-radius: 4px;
+  margin: 0;
+  padding: 0;
+  opacity: 0;
+  width: 0;
+}
+
+.active {
+  margin-left: 10px;
+  padding: 0 10px;
+  opacity: 1;
+  width: 200px;
+}
+
+.serchInput:focus {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+@media (max-width: 1100px) {
+  .bodyCont {
+    display: none;
+  }
+}

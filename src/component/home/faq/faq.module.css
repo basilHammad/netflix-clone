@@ -1,0 +1,29 @@
+.mainCont {
+  color: #fff;
+  background-color: black;
+  overflow: hidden;
+}
+
+.mainHeading {
+  width: 90%;
+  margin: 50px auto 30px;
+  text-align: center;
+  font-size: 55px;
+}
+
+.formCont {
+  width: 60%;
+  margin: 50px auto;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+@media (max-width: 1000px) {
+  .mainHeading {
+    font-size: 45px;
+  }
+}

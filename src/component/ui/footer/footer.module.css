@@ -1,0 +1,28 @@
+.cont {
+  padding: 20px;
+  padding-bottom: 50px;
+  width: 100%;
+  height: 284px;
+  background-color: black;
+  justify-self: flex-end;
+  position: relative;
+}
+
+.list {
+  width: 80%;
+  height: 152px;
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 10px auto;
+}
+
+.secondary {
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.primary {
+  background-color: black;
+}

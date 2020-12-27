@@ -1,0 +1,64 @@
+.cont {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.header {
+  width: 90%;
+  height: 60px;
+}
+.title {
+  width: 100%;
+  color: #fff;
+  font-size: 48px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.userName {
+  color: #808080;
+  text-overflow: ellipsis;
+  font-size: 16px;
+  text-align: center;
+}
+
+.imgCont {
+  width: 100%;
+  max-width: 150px;
+  height: auto;
+  border: 3px solid black;
+  cursor: pointer;
+  max-height: 200px;
+  max-width: 200px;
+  list-style-type: none;
+  text-align: center;
+  margin-right: 30px;
+}
+
+.userImage {
+  width: 100%;
+  max-width: 150px;
+  height: auto;
+  border: 3px solid black;
+  cursor: pointer;
+}
+
+.userImage:hover {
+  border: 3px solid white;
+}
+
+.userImage:hover + .userName {
+  font-weight: bold;
+  color: #e5e5e5;
+}
+
+.spinnerImg {
+  width: 70px;
+  height: 70px;
+  transform: translateY(-74px);
+}
